@@ -1,0 +1,3976 @@
+{
+	"info": {
+		"_postman_id": "49fc7656-d566-4edc-ad3e-49bf71c72fa7",
+		"name": "CommonMasters",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AppConfig",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/AppConfig",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"branchCode\":\"11\",\r\n\"dateFormatStr\":\"dd/mm/yyyy\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/AppConfig",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"AppConfig"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/AppConfig/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"branchCode\":\"12\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/AppConfig/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"AppConfig",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/AppConfig",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"branchCode\":\"11\",\r\n\"dateFormatStr\":\"dd/mm/yyyy\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/AppConfig",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"AppConfig"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/AppConfig/11",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"countryId\":2,\r\n\"countryName\":\"india is\",\r\n\"countryDisplayName\":\"india is\",\r\n\"countryAbbr\":\"IN is\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/AppConfig/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"AppConfig",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/AppConfig/178/1/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": \"178\",\n    \"branchCode\": \"88\",\n    \"dateFormatStr\": \"23/01/1995\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/AppConfig/178/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"AppConfig",
+								"178",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Branch",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Branch",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1412,\r\n\"branchName\":\"Branch\",\r\n\"branchId\":\"7\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Branch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Branch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Branch",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1412,\r\n\"branchName\":\"Branch-up\",\r\n\"branchId\":\"7\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Branch",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Branch"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Branch/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1412,\r\n\"calType\":\"test\",\r\n\"calYear\":22,\r\n\"calMonth\":7,\r\n\"dayType1\":14,\r\n\"id\":\"8\"\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Branch/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Branch",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Branch/7",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"countryId\":2,\r\n\"countryName\":\"india is\",\r\n\"countryDisplayName\":\"india is\",\r\n\"countryAbbr\":\"IN is\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Branch/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Branch",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Branch/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Branch/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Branch",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Calendar",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Calender",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1412,\r\n\"calType\":\"test\",\r\n\"calYear\":22,\r\n\"calMonth\":7,\r\n\"dayType1\":8\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Calender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Calender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Calender",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1412,\r\n\"calType\":\"test\",\r\n\"calYear\":22,\r\n\"calMonth\":7,\r\n\"dayType1\":9\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Calender",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Calender"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Calender/1412",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1412,\r\n\"calType\":\"test\",\r\n\"calYear\":22,\r\n\"calMonth\":7,\r\n\"dayType1\":12,\r\n\"id\":\"8\"\r\n\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Calender/1412",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Calender",
+								"1412"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Calender/Status/A",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Calender/Status/A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Calender",
+								"Status",
+								"A"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Calender/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Calender/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Calender",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "City",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/City",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": \"195\",\n    \"countryCode\": \"Ind\",\n    \"stateCode\": \"maha\",\n    \"languageCode\": \"En\",\n    \"districtCode\": \"TU\",\n    \"numCityCode\": \"14\",\n    \"branchCode\": \"kalyan\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/City",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"City"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/City",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"tenantId\":\"195\",\r\n\"countryCode\":\"Ind\",\r\n\"stateCode\":\"maha\",\r\n\"languageCode\":\"En\",\r\n\"districtCode\":\"TU\",\r\n\"numCityCode\":\"14\",\r\n\"branchCode\":\"kalyan-up\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/City",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"City"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/City/14",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/City/14",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"City",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/City/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantGrpId\":\"11\",\r\n\"tenantGrpCode\":\"tengrp\",\r\n\"tenantGrpName\":\"tenName\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/City/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"City",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/City/195/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/City/195/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"City",
+								"195",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Country",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Country/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantGrpId\":\"11\",\r\n\"tenantGrpCode\":\"tengrp\",\r\n\"tenantGrpName\":\"tenName\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Country/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Country",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Country",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"countryCode\":\"Ca\",\r\n\"tenantId\":\"159\",\r\n\"languageCode\":\"CA\",\r\n\"countryName\":\"india is\",\r\n\"countryAbbrevation\":\"India is\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Country",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Country"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Country",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"countryCode\":\"Ca\",\r\n\"tenantId\":\"159\",\r\n\"languageCode\":\"CA\",\r\n\"countryName\":\"india is\",\r\n\"countryAbbrevation\":\"India is UP\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Country",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Country"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Country/CA",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"countryId\":2,\r\n\"countryName\":\"india is\",\r\n\"countryDisplayName\":\"india is\",\r\n\"countryAbbr\":\"IN is\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Country/CA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Country",
+								"CA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LoginSuspen",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"Ep\",\r\n\"suspendFromDate\":\"2022-07-07\",\r\n\"suspendTillDate\":\"2022-07-08\",\r\n\"remarks\":\"remark\",\r\n\"status\":\"stat\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LoginSuspen",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LoginSuspen"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Country/159/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Country/159/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Country",
+								"159",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Currency",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Currency/602",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"currencyIsoCode\": \"602\",\n    \"currencyId\":\"1\",\n    \"currencyName\": \"test-test\",\n    \"numCode\": \"1414\",\n    \"d001112\": [\n    \t{\n    \t\t\"isCoinYN\":6,\n    \t\t\"isPaperCurrencyYN\":5,\n    \t\t\"denominationValue\":4,\n    \t\t\"noteType\":2,\n    \t\t\"majorMinorUnit\":\"p\"\n    \t}]\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Currency/602",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Currency",
+								"602"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Currency",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"currencyIsoCode\": \"602\",\n    \"currencyName\": \"testUP\",\n    \"numCode\": \"1414\",\n    \"d001112\": [\n        {\n            \"tenantId\": 139,\n            \"currencyIsoCode\": \"602\",\n            \"isCoinYN\": 6,\n            \"isPaperCurrencyYN\": 5,\n            \"denominationValue\": 4,\n            \"noteType\": 2,\n            \"majorMinorUnit\": \"DUP\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Currency",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Currency"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Currency/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"currencyIsoCode\": \"602\",\n    \"currencyId\":\"1\",\n    \"currencyName\": \"test-test\",\n    \"numCode\": \"1414\",\n    \"d001112\": [\n    \t{\n    \t\t\"isCoinYN\":6,\n    \t\t\"isPaperCurrencyYN\":5,\n    \t\t\"denominationValue\":4,\n    \t\t\"noteType\":2,\n    \t\t\"majorMinorUnit\":\"p\"\n    \t}]\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Currency/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Currency",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Currency",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"currencyIsoCode\": \"602\",\n    \"currencyName\": \"test\",\n    \"numCode\": \"1414\",\n    \"d001112\": [\n        {\n            \"tenantId\": 139,\n            \"currencyIsoCode\": \"602\",\n            \"isCoinYN\": 6,\n            \"isPaperCurrencyYN\": 5,\n            \"denominationValue\": 4,\n            \"noteType\": 2,\n            \"majorMinorUnit\": \"D\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Currency",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Currency"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Currency/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Currency/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Currency",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Customer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"memberCode\": 123,\n    \"seqType\": \"18\",\n    \"mbrAppNo\": \"22\",\n    \"maxLoanLimit\": \"5000\",\n    \"memberDOB\":\"22\",\n    \"dateOfApplication\":\"19\",\n    \"memberFName\":\"shadma\"\n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Customer",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"memberCode\": 123,\n    \"seqType\": \"18\",\n    \"mbrAppNo\": \"22\",\n    \"maxLoanLimit\": \"5000\",\n    \"memberDOB\":\"22\",\n    \"dateOfApplication\":\"19\",\n    \"memberFName\":\"shadmaUP\"\n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Customer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Customer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Customer/123",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"memberCode\": 123,\n    \"custId\":\"8\",\n    \"seqType\": \"18\",\n    \"mbrAppNo\": \"22\",\n    \"maxLoanLimit\": \"5000\",\n    \"memberDOB\":\"22\",\n    \"dateOfApplication\":\"19\",\n    \"memberFName\":\"shadma-khan\"\n    \n  \n   \n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Customer/123",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Customer",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Customer/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"memberCode\": 123,\n    \"custId\":\"8\",\n    \"seqType\": \"18\",\n    \"mbrAppNo\": \"22\",\n    \"maxLoanLimit\": \"5000\",\n    \"memberDOB\":\"22\",\n    \"dateOfApplication\":\"19\",\n    \"memberFName\":\"shadma-khan\"\n    \n  \n   \n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Customer/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Customer",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Customer/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Customer/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Customer",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dashboard",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Dashboard",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"admin\",\r\n\"dashboardCode\":\"Pcode\",\r\n\"dashboardName\":\"test\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Dashboard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Dashboard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Dashboard/Pcode",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"admin\",\r\n\"dashboardCode\":\"Pcode\",\r\n\"dashboardId\":\"10\",\r\n\"dashboardName\":\"test\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Dashboard/Pcode",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Dashboard",
+								"Pcode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Dashboard",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"admin\",\r\n\"dashboardCode\":\"Pcode\",\r\n\"dashboardName\":\"test-up\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Dashboard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Dashboard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Dashboard/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"admin\",\r\n\"dashboardCode\":\"Pcode\",\r\n\"dashboardId\":\"10\",\r\n\"dashboardName\":\"test\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Dashboard/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Dashboard",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Dashboard/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Dashboard/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Dashboard",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DashboardPortletMap",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/DashboardPortlet",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"dashboardCode\":\"demo\",\r\n\"dashId\":\"13\",\r\n\"portletCode\":\"test\",\r\n\"portletDisplayRank\":9\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/DashboardPortlet",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"DashboardPortlet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/DashboardPortlet/13",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"dashboardCode\":\"test-up\",\r\n\"dashboardId\":\"10\",\r\n\"portletCode\":\"tewst\",\r\n\"portletDisplayRank\":8\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/DashboardPortlet/13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"DashboardPortlet",
+								"13"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/DashboardPortlet/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"dashboardCode\":\"test-up\",\r\n\"dashboardId\":\"10\",\r\n\"portletCode\":\"tewst\",\r\n\"portletDisplayRank\":8\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/DashboardPortlet/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"DashboardPortlet",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/DashboardPortlet",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"dashboardCode\":\"demo\",\r\n\"dashId\":\"13\",\r\n\"portletCode\":\"test-up\",\r\n\"portletDisplayRank\":9\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/DashboardPortlet",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"DashboardPortlet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/DashboardPortlet/159/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/DashboardPortlet/159/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"DashboardPortlet",
+								"159",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Employee",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/update/Employee",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"empId\": \"EP5602\",\n    \"empCateogry\": \"test\",\n    \"empType\": \"payrole\",\n    \"salutation\": \"Miss\",\n    \"empFName\": \"test\",\n    \"empMName\": \"A\",\n    \"empLName\": \"test\",\n    \"empGender\": \"female\",\n    \"empName\": \"shadma\",\n    \"designation\": \"emp\",\n    \"joinDate\": \"2022-07-02\",\n    \"birthDate\": \"1995-08-04\",\n    \"gender\": \"F\",\n    \"employmentType\": \"p\",\n    \"education\": \"dU\",\n    \"empAddresses\": [\n        {\n            \"tenantId\": 139,\n            \"empId\": \"EP5602\",\n            \"address1\": \"airoli_up\",\n            \"address2\": \"kalyan\",\n            \"address3\": \"thana\",\n            \"pinCode\": \"421103\"\n        }\n    ],\n    \"addresList\": [\n        {\n            \"tenantId\": 139,\n            \"empId\": \"EP5602\",\n            \"address1\": \"adress2List-up\",\n            \"address2\": \"kalyan2List\",\n            \"address3\": \"thana2List\",\n            \"pinCode\": \"421103\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Employee",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Employee"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Employee/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"roleCode\":\"admin\",\r\n\"roleName\":\"admin_up\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Employee/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Employee",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Employee",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"empId\": \"EP5602\",\n    \"empCateogry\": \"test\",\n    \"empType\": \"payrole\",\n    \"salutation\": \"Miss\",\n    \"empFName\": \"test\",\n    \"empMName\": \"A\",\n    \"empLName\": \"test\",\n    \"empGender\": \"female\",\n    \"empName\": \"shadma\",\n    \"designation\": \"emp\",\n    \"joinDate\": \"2022-07-02\",\n    \"birthDate\": \"1995-08-04\",\n    \"gender\": \"F\",\n    \"employmentType\": \"p\",\n    \"education\": \"d\",\n    \"empAddresses\": [\n        {\n            \"tenantId\": 139,\n            \"empId\": \"EP5602\",\n            \"address1\": \"airoli_update\",\n            \"address2\": \"kalyan\",\n            \"address3\": \"thana\",\n            \"pinCode\": \"421103\"\n        }\n    ],\n    \"addresList\": [\n        {\n            \"tenantId\": 139,\n            \"empId\": \"EP5602\",\n            \"address1\": \"adress2List\",\n            \"address2\": \"kalyan2List\",\n            \"address3\": \"thana2List\",\n            \"pinCode\": \"421103\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Employee",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Employee"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Employee/EP5602",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"empCode\": \"EP5608\",\n    \"empId\":\"1\",\n    \"empCateogry\": \"base\",\n    \"empType\": \"payrole\",\n    \"salutation\": \"Miss\",\n    \"empFName\": \"test\",\n    \"empMName\": \"A\",\n    \"empLName\": \"test\",\n    \"empGender\": \"female\",\n    \"empAddresses\": [\n    \t{\n    \t\t\"address1\":\"base\",\n    \t\t\"address2\":\"kalyan\",\n    \t\t\"address3\":\"thana\",\n    \t\t\"pinCode\":\"421103\"\n    \t}],\n    \t \"addresList\": [\n    \t{\n    \t\t\"address1\":\"base\",\n    \t\t\"address2\":\"kalyan2List\",\n    \t\t\"address3\":\"thana2List\",\n    \t\t\"pinCode\":\"421103\"\n    \t}]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Employee/EP5602",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Employee",
+								"EP5602"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Employee/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Employee/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Employee",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HolidayBranch",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Holiday",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1414,\r\n\"holidayCode\":\"admin_up\",\r\n\"holidayDate\":\"2022-07-07\",\r\n\"holidayId\":\"4\",\r\n\"countryCode\":\"Ind\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Holiday",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Holiday"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Holiday/4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1414,\r\n\"holidayCode\":\"admin_up\",\r\n\"holidayDate\":\"2022-07-07\",\r\n\"holidayId\":\"4\",\r\n\"countryCode\":\"Ind\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Holiday/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Holiday",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Holiday/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1414,\r\n\"holidayCode\":\"admin_up\",\r\n\"holidayDate\":\"2022-07-07\",\r\n\"holidayId\":\"4\",\r\n\"countryCode\":\"Ind\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Holiday/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Holiday",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Holiday",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"branchCode\":1414,\r\n\"holidayCode\":\"admin_up\",\r\n\"holidayDate\":\"2022-07-07\",\r\n\"holidayId\":\"4\",\r\n\"countryCode\":\"jap\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Holiday",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Holiday"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Holiday/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Holiday/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Holiday",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LookupCode",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/LookUp/EP5602",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"lookupCode\": \"EP5602\",\n    \"lookupId\":\"1\",\n    \"lookupTypeCode\": \"test_updated\",\n    \"empType\": \"payrole\",\n    \"salutation\": \"Miss\",\n    \"empFName\": \"test\",\n    \"empMName\": \"A\",\n    \"empLName\": \"test-updated\",\n    \"empGender\": \"female\",\n    \"lookupValues\": [\n    \t{\n    \t\t\"languageCode\":\"EN\",\n    \t\t\"lookupValueCode\":\"code\",\n    \t\t\"lookupDisplayValue\":\"testDisplay-updated\",\n    \t\t\"otherLanguageLDV\":\"EnLdv\"\n    \t}]\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LookUp/EP5602",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookUp",
+								"EP5602"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/LookUp",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"lookupCode\": \"EP5602\",\n    \"lookupCodeDesc\": \"test-up\",\n    \"lookupTypeCode\": \"payrole\",\n    \"lookupValues\": [\n        {\n            \"tenantId\": 139,\n            \"lookupCode\": \"EP5602\",\n            \"languageCode\": \"EN\",\n            \"lookupValueCode\": \"code\",\n            \"otherLanguageLDV\": \"EnLdv-up\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/LookUp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"LookUp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LookUp",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"lookupCode\": \"EP5602\",\n    \"lookupCodeDesc\": \"test\",\n    \"lookupTypeCode\": \"payrole\",\n    \"lookupValues\": [\n        {\n            \"tenantId\": 139,\n            \"lookupCode\": \"EP5602\",\n            \"languageCode\": \"EN\",\n            \"lookupValueCode\": \"code\",\n            \"otherLanguageLDV\": \"EnLdv\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LookUp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookUp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LookUp/Status/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/LookUp/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookUp",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LookUp/139/1/A",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/LookUp/139/1/A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookUp",
+								"139",
+								"1",
+								"A"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PasswordPolicy",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/PasswordPolicy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"effFromdate\":\"2022-07-07\",\r\n\"id\":\"4\",\r\n\"effToDate\":\"2022-10-08\",\r\n\"minPwdLength\":8\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/PasswordPolicy",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"PasswordPolicy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/PasswordPolicy",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"effFromdate\":\"2022-07-07\",\r\n\"id\":\"4\",\r\n\"effToDate\":\"2022-10-08\",\r\n\"minPwdLength\":5\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/PasswordPolicy",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"PasswordPolicy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/PasswordPolicy/Status/p",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"effFromdate\":\"2022-07-07\",\r\n\"id\":\"4\",\r\n\"effToDate\":\"2022-10-08\",\r\n\"minPwdLength\":5\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/PasswordPolicy/Status/p",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"PasswordPolicy",
+								"Status",
+								"p"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/PasswordPolicy/4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"effFromdate\":\"2022-07-07\",\r\n\"id\":\"4\",\r\n\"effToDate\":\"2022-10-08\",\r\n\"minPwdLength\":5\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/PasswordPolicy/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"PasswordPolicy",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/PasswordPolicy/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/PasswordPolicy/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"PasswordPolicy",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Portlet",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Portlet",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"portletCode\":\"14\",\r\n\"portletName\":\"admin\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Portlet",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Portlet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Portlet/14",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"portletCode\":\"portcode\",\r\n\"portletId\":\"9\",\r\n\"portletName\":\"admi_up\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Portlet/14",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Portlet",
+								"14"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Portlet",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"portletCode\":\"14\",\r\n\"portletName\":\"admi_up\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Portlet",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Portlet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Portlet/Status/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Portlet/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Portlet",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Portlet/139/1/A",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Portlet/139/1/A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Portlet",
+								"139",
+								"1",
+								"A"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Report",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Report/10",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"lbrCode\": 54,\n    \"reportId\":\"EP\",\n    \"reportIddesc\": \"10\",\n    \"d970196\": [\n    \t{\n    \t\t\"paramNo\":6,\n    \t\t\"paramName\":\"pn\"\n    \t}]\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Report/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Report",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Report/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"lbrCode\": 54,\n    \"reportId\":\"EP\",\n    \"reportIddesc\": \"10\",\n    \"d970196\": [\n    \t{\n    \t\t\"paramNo\":6,\n    \t\t\"paramName\":\"pn\"\n    \t}]\n    \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Report/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Report",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Report",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"lbrCode\": 1,\n    \"reportId\": \"EP\",\n    \"reportIddesc\":\"test\",\n    \"d970196\": [\n        {\n            \"tenantId\": 139,\n            \"reportId\": \"EP\",\n            \"lbrCode\": 1,\n            \"paramNo\": 1,\n            \"paramName\": \"pnameUP\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Report",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Report"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Report",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"lbrCode\": 1,\n    \"reportId\": \"EP\",\n    \"reportIddesc\":\"test-up\",\n    \"d970196\": [\n        {\n            \"tenantId\": 139,\n            \"reportId\": \"EP\",\n            \"lbrCode\": 1,\n            \"paramNo\": 1,\n            \"paramName\": \"pname\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Report",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Report"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Report/EP",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Report/EP",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Report",
+								"EP"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Report/139/1/A",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Report/139/1/A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Report",
+								"139",
+								"1",
+								"A"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ResetPassword",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/ResetPassword",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"userLoginId\": \"EP5602\",\n    \"id\":\"5\",\n    \"phoneNo\": \"1234567892\",\n    \"secretQn\": \"test\",\n    \"secretAns\":\"demo\"\n  \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/ResetPassword",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"ResetPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/ResetPassword",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"userLoginId\": \"EP5602\",\n    \"id\":\"5\",\n    \"phoneNo\": \"1234567892\",\n    \"secretQn\": \"test-up\",\n    \"secretAns\":\"demo-up\"\n  \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/ResetPassword",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"ResetPassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/ResetPassword/5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"userLoginId\": \"EP5602\",\n    \"id\":\"5\",\n    \"phoneNo\": \"1234567892\",\n    \"secretQn\": \"test\",\n    \"secretAns\":\"demo\"\n  \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/ResetPassword/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"ResetPassword",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/ResetPassword/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"effFromdate\": \"EP5602\",\n    \"id\":\"5\",\n    \"phoneNo\": \"1234567892\",\n    \"secretQn\": \"test\",\n    \"secretAns\":\"demo\"\n  \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/ResetPassword/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"ResetPassword",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/ResetPassword/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/ResetPassword/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"ResetPassword",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Role",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/update/Role",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":152,\r\n\"userRoleId\":\"test\",\r\n\"userRoleName\":\"2_up\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Role",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Role",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":152,\r\n\"userRoleId\":\"test\",\r\n\"userRoleName\":\"2\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Role",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Role"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Role/test",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"roleCode\":\"admin\",\r\n\"roleId\":\"2\",\r\n\"roleName\":\"admin\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Role/test",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Role",
+								"test"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Role/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Role/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Role",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Role/139/1/A",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Role/139/1/A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Role",
+								"139",
+								"1",
+								"A"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SeqFileGen",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Sequence",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"branchCode\": \"BP1010\",\n    \"trailApply\":\"8\",\n    \"fromDate\": \"17\",\n    \"toDate\": \"21\",\n    \"seqId\": \"4\",\n    \"fileName\": \"test\",\n    \"chequeType\": \"Q\"\n   \n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Sequence",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Sequence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Sequence/4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"branchCode\": \"BP1010\",\n    \"trailApply\":\"8\",\n    \"fromDate\": \"17\",\n    \"toDate\": \"21\",\n    \"seqId\": \"4\",\n    \"fileName\": \"test_update\",\n    \"chequeType\": \"Q\"\n   \n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Sequence/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Sequence",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Sequence",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"branchCode\": \"BP1010\",\n    \"trailApply\":\"8\",\n    \"fromDate\": \"17\",\n    \"toDate\": \"21\",\n    \"seqId\": \"4\",\n    \"fileName\": \"test_update\",\n    \"chequeType\": \"Q\"\n   \n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Sequence",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Sequence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Sequence/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"memberCode\": 123,\n    \"custId\":\"8\",\n    \"seqType\": \"18\",\n    \"mbrAppNo\": \"22\",\n    \"maxLoanLimit\": \"5000\",\n    \"memberDOB\":\"22\",\n    \"dateOfApplication\":\"19\",\n    \"memberFName\":\"shadma-khan\"\n    \n  \n   \n   \n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Sequence/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Sequence",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Sequence/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Sequence/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Sequence",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "State",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/State",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":\"125\",\r\n\"languageCode\":\"11\",\r\n\"countryCode\":\"In\",\r\n\"stateCode\":\"maha\",\r\n\"stateName\":\"demo state\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/State",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"State"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/State/maha",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\"countryId\":\"125\",\n\"stateId\":\"11\",\n\"stateName\":\"maharashtra\",\n\"stateDisplayName\":\"maha\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/State/maha",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"State",
+								"maha"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/State",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":\"125\",\r\n\"languageCode\":\"11\",\r\n\"countryCode\":\"In\",\r\n\"stateCode\":\"maha\",\r\n\"stateName\":\"demo stateUp\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/State",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"State"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/State/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n{\n\"countryId\":\"125\",\n\"stateId\":\"11\",\n\"stateName\":\"maharashtra\",\n\"stateDisplayName\":\"maha\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/State/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"State",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/State/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/State/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"State",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TenantGroup",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/update/TenantGrp",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"grpTenantId\":11,\r\n\"grpTenantName\":\"tenNameUP\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/TenantGrp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"TenantGrp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/TenantGrp",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"grpTenantId\":11,\r\n\"grpTenantName\":\"tenName\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/TenantGrp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"TenantGrp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/TenantGrp/11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/TenantGrp/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"TenantGrp",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/TenantGrp/Status/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/TenantGrp/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"TenantGrp",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "UserLoginSuspend",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/LoginSuspen/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"Ep\",\r\n\"suspendFromDate\":\"2022-07-07\",\r\n\"suspendTillDate\":\"2022-07-08\",\r\n\"id\":\"5\",\r\n\"remarks\":\"remark-upda\",\r\n\"status\":\"stat\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LoginSuspen/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LoginSuspen",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LoginSuspen",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"Ep\",\r\n\"suspendFromDate\":\"2022-07-07\",\r\n\"suspendTillDate\":\"2022-07-08\",\r\n\"remarks\":\"remark\",\r\n\"status\":\"stat\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LoginSuspen",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LoginSuspen"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/LoginSuspen",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"Ep\",\r\n\"suspendFromDate\":\"2022-07-07\",\r\n\"suspendTillDate\":\"2022-07-08\",\r\n\"remarks\":\"remark-upda\",\r\n\"status\":\"stat\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/LoginSuspen",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"LoginSuspen"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LoginSuspen/EP",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"loginId\":\"Ep\",\r\n\"suspendFromDate\":\"2022-07-07\",\r\n\"suspendTillDate\":\"2022-07-08\",\r\n\"id\":\"5\",\r\n\"remarks\":\"remark-upda\",\r\n\"status\":\"stat\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LoginSuspen/EP",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LoginSuspen",
+								"EP"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LoginSuspen/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/LoginSuspen/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LoginSuspen",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"loginId\": \"admin\",\n    \"userId\":\"10\",\n    \"roleCode\": \"role1\",\n    \"userAddresses\": [\n    \t{\n    \t\t\"address1\":\"base\",\n    \t\t\"address2\":\"kalyan\",\n    \t\t\"address3\":\"thana\",\n    \t\t\"pinCode\":\"421103\"\n    \t}],\n    \t \"userBranchMaps\": [\n    \t{\n    \t\t\"branchCode\":\"base\"\n    \t}]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/User",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/User",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 139,\n    \"loginId\": \"admin\",\n    \"userId\":\"10\",\n    \"roleCode\": \"role\",\n    \"userAddresses\": [\n    \t{\n    \t\t\"address1\":\"ba\",\n    \t\t\"address2\":\"kalyan\",\n    \t\t\"address3\":\"thana\",\n    \t\t\"pinCode\":\"421103\"\n    \t}],\n    \t \"userBranchMaps\": [\n    \t{\n    \t\t\"branchCode\":\"base\"\n    \t}]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/User",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/User/Status/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/User/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"User",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/User/10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/User/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"User",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/User/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/User/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"User",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Village",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/Village/EP01",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"languageCode\":\"En\",\r\n\"countryCode\":\"IND\",\r\n\"stateCode\":\"MH\",\r\n\"districtCode\":\"Thana\",\r\n\"villageCode\":\"K123\",\r\n\"municipalityCode\":\"ABC\",\r\n\"villageName\":\"keshori\",\r\n\"population\":500,\r\n\"blockCode\":\"B123\",\r\n\"blockName\":\"C-block\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Village/EP01",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Village",
+								"EP01"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/Village",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"villageCode\":\"EP01\",\r\n\"language\":\"IND\",\r\n\"country\":\"MH\",\r\n\"state\":\"New\",\r\n\"city\":\"K123\",\r\n\"area\":\"ABC\",\r\n\"municipalityBlock\":\"T\",\r\n\"villageDesc\":\"updated\"\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/Village",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"Village"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Village",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"villageCode\":\"EP01\",\r\n\"language\":\"IND\",\r\n\"country\":\"MH\",\r\n\"state\":\"New\",\r\n\"city\":\"K123\",\r\n\"area\":\"ABC\",\r\n\"municipalityBlock\":\"T\",\r\n\"villageDesc\":500\r\n\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Village",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Village"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Village/Status/P",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"tenantId\":139,\r\n\"roleCode\":\"admin\",\r\n\"roleName\":\"admin_up\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/Village/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Village",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/Village/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/Village/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"Village",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "lookupValue",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/LookupValue",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 182,\n    \"lookupCode\": \"EP1414\",\n    \"languageCode\": \"EN\",\n    \"lookupValueCode\": \"code\",\n    \"lookupDisplayValue\": \"test\",\n    \"isActive\": \"0\",\n    \"authStatus\": \"P\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LookupValue",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookupValue"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LookupValue/Status/A",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/LookupValue/Status/A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookupValue",
+								"Status",
+								"A"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LookupValue/139/1/A",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 182,\n    \"lookupCode\": \"EP1414\",\n    \"languageCode\": \"EN\",\n    \"lookupValueCode\": \"code\",\n    \"lookupDisplayValue\": \"testU\",\n    \"isActive\": \"1\",\n    \"authStatus\": \"P\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/LookupValue/139/1/A",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookupValue",
+								"139",
+								"1",
+								"A"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/LookupValue",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"tenantId\": 182,\n    \"lookupCode\": \"EP1414\",\n    \"languageCode\": \"EN\",\n    \"lookupValueCode\": \"code\",\n    \"lookupDisplayValue\": \"test-up\",\n    \"isActive\": \"0\",\n    \"authStatus\": \"P\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/LookupValue",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"LookupValue"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/LookupValue/EP5602",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/LookupValue/EP5602",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"LookupValue",
+								"EP5602"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "UserRole",
+			"item": [
+				{
+					"name": "http://localhost:9631/masters/UserRole",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"tenantId\":\"139\",\n\t\"userRoleName\":\"master\",\n\t\"userRoleId\":\"admin\"\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/UserRole",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"UserRole"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/update/UserRole",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"tenantId\":\"139\",\n\t\"userRoleName\":\"master_up\",\n\t\"userRoleId\":\"admin\"\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9631/masters/update/UserRole",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"update",
+								"UserRole"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/UserRole/admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/UserRole/admin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"UserRole",
+								"admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/UserRole/Status/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/UserRole/Status/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"UserRole",
+								"Status",
+								"P"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9631/masters/UserRole/139/1/P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9631/masters/UserRole/139/1/P",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9631",
+							"path": [
+								"masters",
+								"UserRole",
+								"139",
+								"1",
+								"P"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

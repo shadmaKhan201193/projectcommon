@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="CustomerService"
+	packages="">
+	<Properties>
+		<Property name="LOG_PATTERN">%5p %d %d{Z} [%X{requestAppName}, %X{traceId}, %X{spanId}] -- %t %c - %m%n
+		</Property>
+	</Properties>
+	<Appenders>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="${LOG_PATTERN}" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<Root level="info">
+			<!-- <AppenderRef ref="PhysicalFile" /> -->
+  <AppenderRef ref="STDOUT"/> 
+		</Root>
+		<Logger name="com.itl" level="debug" additivity="false" >
+			<appender-ref ref="STDOUT" level="info" />
+		</Logger>
+	</Loggers>
+</Configuration>

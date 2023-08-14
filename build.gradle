@@ -1,0 +1,52 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.3'
+	id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+	id 'java'
+}
+
+group = 'ai.kiya'
+version = '0.0.1'
+sourceCompatibility = '17'
+
+repositories {
+	maven {
+        url "http://nexus.products.kiya.ai/repository/maven-releases/"
+		allowInsecureProtocol = true
+    }
+    maven {
+        url "http://172.21.0.66:8081/repository/maven-central/"
+		allowInsecureProtocol = true
+    }
+    
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.apache.logging.log4j:log4j-core'
+	implementation 'org.apache.logging.log4j:log4j-slf4j-impl'
+	implementation 'org.slf4j:slf4j-api'
+	runtimeOnly 'mysql:mysql-connector-java'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.hibernate:hibernate-envers:5.5.5.Final'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'net.sf.dozer:dozer:5.5.1'
+	implementation group: 'com.github.java-json-tools', name: 'json-schema-validator', version: '2.2.8'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+	implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.9'
+	implementation 'ai.kiya:common-component-service:0.0.3'
+    implementation 'com.google.code.gson:gson:2.10'
+	compileOnly 'org.projectlombok:lombok:1.18.24'
+	annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+	// https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager
+    
+	
+}
+
+configurations {
+    all*.exclude module : 'spring-boot-starter-logging'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
